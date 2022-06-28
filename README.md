@@ -1,3 +1,3 @@
 # ignews
 
-<h1>Projeto em desenvolvimento<h1/>
+<h1>Projeto em desenvolvimento...<h1/>
