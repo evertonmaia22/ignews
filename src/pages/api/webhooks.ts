@@ -46,7 +46,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
         const { type } = event;
 
-        if (!relevantEvents.has(type)) {
+        if (relevantEvents.has(type)) {
             try {
                 switch (type) {
                     case 'customer.subscriptions.created':
